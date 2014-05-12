@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B4B3AB1920E2C500A00B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4B3AA1920E2C500A00B3B /* Foundation.framework */; };
+		A9B4B3B01920E2C500A00B3B /* MFMockNSURLConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9B4B3AF1920E2C500A00B3B /* MFMockNSURLConnection.h */; };
+		A9B4B3B21920E2C500A00B3B /* MFMockNSURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4B3B11920E2C500A00B3B /* MFMockNSURLConnection.m */; };
+		A9B4B3B91920E2C500A00B3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4B3B81920E2C500A00B3B /* XCTest.framework */; };
+		A9B4B3BA1920E2C500A00B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4B3AA1920E2C500A00B3B /* Foundation.framework */; };
+		A9B4B3BC1920E2C500A00B3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4B3BB1920E2C500A00B3B /* UIKit.framework */; };
+		A9B4B3BF1920E2C500A00B3B /* libMFMockNSURLConnection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4B3A71920E2C500A00B3B /* libMFMockNSURLConnection.a */; };
+		A9B4B3C51920E2C500A00B3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B4B3C31920E2C500A00B3B /* InfoPlist.strings */; };
+		A9B4B3C71920E2C500A00B3B /* MFMockNSURLConnectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4B3C61920E2C500A00B3B /* MFMockNSURLConnectionTests.m */; };
+		A9B4B3D21920E30A00A00B3B /* MFMockData.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4B3D11920E30A00A00B3B /* MFMockData.m */; };
+		A9B4B3D51920E37500A00B3B /* MFMocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4B3D41920E37500A00B3B /* MFMocks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9B4B3BD1920E2C500A00B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B4B39F1920E2C500A00B3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B4B3A61920E2C500A00B3B;
+			remoteInfo = MFMockNSURLConnection;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9B4B3A51920E2C500A00B3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A9B4B3B01920E2C500A00B3B /* MFMockNSURLConnection.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9B4B3A71920E2C500A00B3B /* libMFMockNSURLConnection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMFMockNSURLConnection.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B4B3AA1920E2C500A00B3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9B4B3AE1920E2C500A00B3B /* MFMockNSURLConnection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MFMockNSURLConnection-Prefix.pch"; sourceTree = "<group>"; };
+		A9B4B3AF1920E2C500A00B3B /* MFMockNSURLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFMockNSURLConnection.h; sourceTree = "<group>"; };
+		A9B4B3B11920E2C500A00B3B /* MFMockNSURLConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFMockNSURLConnection.m; sourceTree = "<group>"; };
+		A9B4B3B71920E2C500A00B3B /* MFMockNSURLConnectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFMockNSURLConnectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B4B3B81920E2C500A00B3B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9B4B3BB1920E2C500A00B3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A9B4B3C21920E2C500A00B3B /* MFMockNSURLConnectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MFMockNSURLConnectionTests-Info.plist"; sourceTree = "<group>"; };
+		A9B4B3C41920E2C500A00B3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9B4B3C61920E2C500A00B3B /* MFMockNSURLConnectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFMockNSURLConnectionTests.m; sourceTree = "<group>"; };
+		A9B4B3D01920E30A00A00B3B /* MFMockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMockData.h; sourceTree = "<group>"; };
+		A9B4B3D11920E30A00A00B3B /* MFMockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMockData.m; sourceTree = "<group>"; };
+		A9B4B3D31920E37500A00B3B /* MFMocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMocks.h; sourceTree = "<group>"; };
+		A9B4B3D41920E37500A00B3B /* MFMocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMocks.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B4B3A41920E2C500A00B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B4B3AB1920E2C500A00B3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B4B3B41920E2C500A00B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B4B3B91920E2C500A00B3B /* XCTest.framework in Frameworks */,
+				A9B4B3BF1920E2C500A00B3B /* libMFMockNSURLConnection.a in Frameworks */,
+				A9B4B3BC1920E2C500A00B3B /* UIKit.framework in Frameworks */,
+				A9B4B3BA1920E2C500A00B3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9B4B39E1920E2C500A00B3B = {
+			isa = PBXGroup;
+			children = (
+				A9B4B3AC1920E2C500A00B3B /* MFMockNSURLConnection */,
+				A9B4B3C01920E2C500A00B3B /* MFMockNSURLConnectionTests */,
+				A9B4B3A91920E2C500A00B3B /* Frameworks */,
+				A9B4B3A81920E2C500A00B3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B4B3A81920E2C500A00B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4B3A71920E2C500A00B3B /* libMFMockNSURLConnection.a */,
+				A9B4B3B71920E2C500A00B3B /* MFMockNSURLConnectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B4B3A91920E2C500A00B3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4B3AA1920E2C500A00B3B /* Foundation.framework */,
+				A9B4B3B81920E2C500A00B3B /* XCTest.framework */,
+				A9B4B3BB1920E2C500A00B3B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9B4B3AC1920E2C500A00B3B /* MFMockNSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4B3AF1920E2C500A00B3B /* MFMockNSURLConnection.h */,
+				A9B4B3B11920E2C500A00B3B /* MFMockNSURLConnection.m */,
+				A9B4B3D01920E30A00A00B3B /* MFMockData.h */,
+				A9B4B3D11920E30A00A00B3B /* MFMockData.m */,
+				A9B4B3D31920E37500A00B3B /* MFMocks.h */,
+				A9B4B3D41920E37500A00B3B /* MFMocks.m */,
+				A9B4B3AD1920E2C500A00B3B /* Supporting Files */,
+			);
+			path = MFMockNSURLConnection;
+			sourceTree = "<group>";
+		};
+		A9B4B3AD1920E2C500A00B3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4B3AE1920E2C500A00B3B /* MFMockNSURLConnection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9B4B3C01920E2C500A00B3B /* MFMockNSURLConnectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4B3C61920E2C500A00B3B /* MFMockNSURLConnectionTests.m */,
+				A9B4B3C11920E2C500A00B3B /* Supporting Files */,
+			);
+			path = MFMockNSURLConnectionTests;
+			sourceTree = "<group>";
+		};
+		A9B4B3C11920E2C500A00B3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4B3C21920E2C500A00B3B /* MFMockNSURLConnectionTests-Info.plist */,
+				A9B4B3C31920E2C500A00B3B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B4B3A61920E2C500A00B3B /* MFMockNSURLConnection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B4B3CA1920E2C500A00B3B /* Build configuration list for PBXNativeTarget "MFMockNSURLConnection" */;
+			buildPhases = (
+				A9B4B3A31920E2C500A00B3B /* Sources */,
+				A9B4B3A41920E2C500A00B3B /* Frameworks */,
+				A9B4B3A51920E2C500A00B3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFMockNSURLConnection;
+			productName = MFMockNSURLConnection;
+			productReference = A9B4B3A71920E2C500A00B3B /* libMFMockNSURLConnection.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9B4B3B61920E2C500A00B3B /* MFMockNSURLConnectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B4B3CD1920E2C500A00B3B /* Build configuration list for PBXNativeTarget "MFMockNSURLConnectionTests" */;
+			buildPhases = (
+				A9B4B3B31920E2C500A00B3B /* Sources */,
+				A9B4B3B41920E2C500A00B3B /* Frameworks */,
+				A9B4B3B51920E2C500A00B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B4B3BE1920E2C500A00B3B /* PBXTargetDependency */,
+			);
+			name = MFMockNSURLConnectionTests;
+			productName = MFMockNSURLConnectionTests;
+			productReference = A9B4B3B71920E2C500A00B3B /* MFMockNSURLConnectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B4B39F1920E2C500A00B3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Mustafa;
+			};
+			buildConfigurationList = A9B4B3A21920E2C500A00B3B /* Build configuration list for PBXProject "MFMockNSURLConnection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9B4B39E1920E2C500A00B3B;
+			productRefGroup = A9B4B3A81920E2C500A00B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B4B3A61920E2C500A00B3B /* MFMockNSURLConnection */,
+				A9B4B3B61920E2C500A00B3B /* MFMockNSURLConnectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B4B3B51920E2C500A00B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B4B3C51920E2C500A00B3B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B4B3A31920E2C500A00B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B4B3D21920E30A00A00B3B /* MFMockData.m in Sources */,
+				A9B4B3B21920E2C500A00B3B /* MFMockNSURLConnection.m in Sources */,
+				A9B4B3D51920E37500A00B3B /* MFMocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B4B3B31920E2C500A00B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B4B3C71920E2C500A00B3B /* MFMockNSURLConnectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9B4B3BE1920E2C500A00B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B4B3A61920E2C500A00B3B /* MFMockNSURLConnection */;
+			targetProxy = A9B4B3BD1920E2C500A00B3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B4B3C31920E2C500A00B3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B4B3C41920E2C500A00B3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9B4B3C81920E2C500A00B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9B4B3C91920E2C500A00B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9B4B3CB1920E2C500A00B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MFMockNSURLConnection.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MFMockNSURLConnection/MFMockNSURLConnection-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A9B4B3CC1920E2C500A00B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/MFMockNSURLConnection.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MFMockNSURLConnection/MFMockNSURLConnection-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A9B4B3CE1920E2C500A00B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MFMockNSURLConnection/MFMockNSURLConnection-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MFMockNSURLConnectionTests/MFMockNSURLConnectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9B4B3CF1920E2C500A00B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MFMockNSURLConnection/MFMockNSURLConnection-Prefix.pch";
+				INFOPLIST_FILE = "MFMockNSURLConnectionTests/MFMockNSURLConnectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B4B3A21920E2C500A00B3B /* Build configuration list for PBXProject "MFMockNSURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4B3C81920E2C500A00B3B /* Debug */,
+				A9B4B3C91920E2C500A00B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B4B3CA1920E2C500A00B3B /* Build configuration list for PBXNativeTarget "MFMockNSURLConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4B3CB1920E2C500A00B3B /* Debug */,
+				A9B4B3CC1920E2C500A00B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9B4B3CD1920E2C500A00B3B /* Build configuration list for PBXNativeTarget "MFMockNSURLConnectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4B3CE1920E2C500A00B3B /* Debug */,
+				A9B4B3CF1920E2C500A00B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9B4B39F1920E2C500A00B3B /* Project object */;
+}
